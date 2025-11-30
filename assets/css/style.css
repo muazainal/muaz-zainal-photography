@@ -64,6 +64,18 @@ h2 {
     width: 40px;
 }
 
+/* footer */
+
+
+.social-links {
+  font-size: clamp(1.5rem, 2vw, 3rem); 
+}
+
+.social-links i {
+  color: var(--secondary-color);
+}
+
+
 /* body
  {
     font-family: "Quicksand", cursive;
