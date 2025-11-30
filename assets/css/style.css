@@ -8,6 +8,7 @@
     --tertiary-font: "Zain", sans-serif;
     --primary-color: #022b3aff; /* jet black */
     --secondary-color: #1f7a8cff; /* teal */
+    --light-highlight: #bfdbf7ff; /* pale sky */
 }
 
 /* global styles */
@@ -27,7 +28,40 @@ h2 {
 }
 
 .custom-margin {
-    margin-top: 20px;
+    margin-top: 0px;
+}
+
+/* navbar */
+#navbar {
+    background-color: var(--secondary-color);
+}
+
+/* Custom CSS file, loaded AFTER Bootstrap's CSS */
+.navbar-text .custom-margin {
+    /* Use !important only if absolutely necessary, 
+       but higher specificity usually avoids it. */
+    color: var(--light-highlight); /* Example: Bootstrap's lighter text color */
+}
+
+/* 1. Default Link Color (Features, Pricing) */
+.navbar-nav .nav-link {
+    color: var(--light-highlight); /* pale sky */
+}
+
+/* 2. Active Link Color (Home) */
+.navbar-nav .nav-link.active {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* 3. Hover/Focus Color */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #FFFFFF; /* Pure White */
+}
+
+#navbar .logo {
+    width: 40px;
 }
 
 /* body
