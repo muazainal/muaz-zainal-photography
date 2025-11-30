@@ -61,40 +61,390 @@
             </div>
         </div>
     </nav>
-    <!-- <div>Navigation
-        
-    </div> 
+    <!-- <div>Navigation -->
+    </div>
 
 
     <!-- header with carousell -->
-    <header>
-        <img src="assets/images/golden-gate-bridge.JPG" class="img-fluid"
+    <header class="hero position-relative">
+        <img src="assets/images/golden-gate-bridge.JPG" class="img-fluid w-100"
             alt="image of golden gate bridge in San Francisco">
+
+        <div class="hero-text position-absolute top-50 start-50 translate-middle text-center">
+            <h1 class="display-4 text-white">Rediscovered moments</h1>
+        </div>
     </header>
 
     <!-- main elements -->
-    <main>
-        <div>Main Elements</div>
-    </main>
+    <section id="gallery" class="container section mt-5">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h2 class="display-6">Collection</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- card 1 - newborn-->
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card">
+                    <!-- Carousel inside card -->
+                    <div id="carouselSports" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/newborn-photoshoot-1.JPG" class="d-block w-100"
+                                    alt="newborn baby 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/newborn-photoshoot-2.JPG" class="d-block w-100"
+                                    alt="newborn baby 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/newborn-photoshoot-3.JPG" class="d-block w-100"
+                                    alt="newborn baby 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/newborn-photoshoot-4.JPG" class="d-block w-100"
+                                    alt="newborn baby 4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/newborn-photoshoot-5.JPG" class="d-block w-100"
+                                    alt="newborn baby 5">
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSports"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselSports"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
 
-    <!-- footer / contact section -->
-    <!-- mt-auto added to push footer to the bottom of the page -->
-    <footer class="mt-auto">
-        <nav class="navbar bg-body-tertiary">
-            <div class="container d-flex justify-content-center">
-                <div class="social-links mt-4 d-flex gap-4">
-                    <a href="https://www.instagram.com/muaz.zainal.photo" target="_blank"
-                        aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                            class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/muazainalphotography" target="_blank"
-                        aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
-                            class="fa-brands fa-square-facebook"></i></a>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h3 class="card-title">Newborn Photoshoot</h3>
+                        <p class="card-text">A collection of tender moments and peaceful dreams.</p>
+                        <a href="gallery.html" class="btn btn-primary">Go to Gallery</a>
+                    </div>
                 </div>
             </div>
-        </nav>
 
+            <!-- card 2 - sports -->
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card">
+                    <!-- Carousel inside card -->
+                    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/sports-1.jpeg" class="d-block w-100"
+                                    alt="sports - man playing tennis">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/sports-2.jpeg" class="d-block w-100"
+                                    alt="sports - ladies playing hockey">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/sports-3.jpeg" class="d-block w-100"
+                                    alt="sports - ladies playing baseball running for homerun">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/sports-4.jpeg" class="d-block w-100"
+                                    alt="sports - men taek won do">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/sports-5.JPG" class="d-block w-100"
+                                    alt="sports - man playing hockey">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/sports-6.JPG" class="d-block w-100"
+                                    alt="sports - man playing hockey">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/sports-7.JPG" class="d-block w-100"
+                                    alt="sports - ladies playing basketball">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/sports-8.JPG" class="d-block w-100"
+                                    alt="sports - man playing baseball">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/sports-9.JPG" class="d-block w-100"
+                                    alt="sports - man playing baseball">
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
 
-    </footer>
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h3 class="card-title">Sports Photography</h3>
+                        <p class="card-text">Life in motion, frozen in a split-second frame.</p>
+                        <a href="gallery.html" class="btn btn-primary">Go to Gallery</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 - wedding -->
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card">
+                    <!-- Carousel inside card -->
+                    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/wedding-1.JPG" class="d-block w-100"
+                                    alt="newly-wed couple by the beach">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/wedding-2.JPG" class="d-block w-100"
+                                    alt="a bride in indian theme wedding">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/wedding-3.JPG" class="d-block w-100"
+                                    alt="a couple in black and white (monochrome) picture">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/wedding-4.JPG" class="d-block w-100" alt="a couple at the park">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/wedding-5.JPG" class="d-block w-100"
+                                    alt="a couple in yellow set">
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h3 class="card-title">Matrimonial Portraiture</h3>
+                        <p class="card-text">A collection of tender moments and peaceful dreams.</p>
+                        <a href="gallery.html" class="btn btn-primary">Go to Gallery</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 4 - landscape -->
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card">
+                    <!-- Carousel inside card -->
+                    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/landscape-1.JPG" class="d-block w-100"
+                                    alt="Sierra of mountains">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/landscape-2.JPG" class="d-block w-100"
+                                    alt="greeneries from tip of pine forest">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/landscape-3.JPG" class="d-block w-100" alt="blue ocean">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/landscape-4.JPG" class="d-block w-100"
+                                    alt="vast and dry mountain">
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h3 class="card-title">Natural Wonders</h3>
+                        <p class="card-text">Capturing the Earth's epic scale and enduring majesty.</p>
+                        <a href="gallery.html" class="btn btn-primary">Go to Gallery</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 5 - corporate events-->
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card">
+                    <!-- Carousel inside card -->
+                    <div id="carouselCorporate" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/corporate-events-1.JPG" class="d-block w-100"
+                                    alt="signing of MOU">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/corporate-events-2.JPG" class="d-block w-100"
+                                    alt="a man answering a question in press conference">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/corporate-events-3.JPG" class="d-block w-100"
+                                    alt="men answering a question in press conference">
+                            </div>
+                            <!-- Controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCorporate"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselCorporate"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+
+                        <!-- Card body -->
+                        <div class="card-body">
+                            <h3 class="card-title">Professional Dynamics</h3>
+                            <p class="card-text">Capturing the pivotal handshakes, engaging speakers, and high-energy
+                                networking.</p>
+                            <a href="gallery.html" class="btn btn-primary">Go to Gallery</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 6 - convocation  -->
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card">
+                    <!-- Carousel inside card -->
+                    <div id="carouselConvo" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/convocation-2.JPG" class="d-block w-100"
+                                    alt="convocation">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="convocation" class="d-block w-100" alt="blue ocean">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/convocation-4.JPG" class="d-block w-100"
+                                    alt="convocation">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/convocation-5.JPG" class="d-block w-100"
+                                    alt="convocation">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/convocation-6.JPG" class="d-block w-100"
+                                    alt="convocation">
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselConvo"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselConvo"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+
+                    <!-- Card body -->
+                    <div class="card-body">
+                        <h3 class="card-title">Academic Milestone</h3>
+                        <p class="card-text">Documenting the culmination of years of hard work and academic dedication.</p>
+                        <a href="gallery.html" class="btn btn-primary">Go to Gallery</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 7 - travel-->
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card">
+                    <!-- Carousel inside card -->
+                    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/maghribi-1.jpg" class="d-block w-100"
+                                    alt="signing of MOU">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets\images\corporate-events-2.JPG" class="d-block w-100"
+                                    alt="a man answering a question in press conference">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets\images\corporate-events-3.JPG" class="d-block w-100"
+                                    alt="men answering a question in press conference">
+                            </div>
+                            <!-- Controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+
+                        <!-- Card body -->
+                        <div class="card-body">
+                            <h3 class="card-title">Global Journeys</h3>
+                            <p class="card-text">Capturing the heart and soul of destinations near and far.</p>
+                            <a href="gallery.html" class="btn btn-primary">Go to Gallery</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 8 - portraiture -->
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="card">
+                    <!-- Carousel inside card -->
+                    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/corporate-events-1.JPG" class="d-block w-100"
+                                    alt="signing of MOU">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/corporate-events-2.JPG" class="d-block w-100"
+                                    alt="a man answering a question in press conference">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/corporate-events-3.JPG" class="d-block w-100"
+                                    alt="men answering a question in press conference">
+                            </div>
+                            <!-- Controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+
+                        <!-- Card body -->
+                        <div class="card-body">
+                            <h3 class="card-title">Human Canvas</h3>
+                            <p class="card-text">Preserving the unique spirit and compelling personality behind every face.</p>
+                            <a href="gallery.html" class="btn btn-primary">Go to Gallery</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
 
     <!-- bootstrap js -->

@@ -22,7 +22,7 @@ h1 {
     font-size: clamp(0.5rem, 5vw, 1.5rem);
 }
 
-h2 {
+h2, h3 {
     font-family: var(--tertiary-font);
     color: var(--secondary-color);
 }
@@ -37,6 +37,7 @@ h2 {
 }
 
 /* Custom CSS file, loaded AFTER Bootstrap's CSS */
+
 .navbar-text .custom-margin {
     /* Use !important only if absolutely necessary, 
        but higher specificity usually avoids it. */
@@ -64,8 +65,42 @@ h2 {
     width: 40px;
 }
 
-/* footer */
+/* header */
 
+.hero {
+  height: 60vh; /* adjust hero height */
+  overflow: hidden;
+}
+
+.hero img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-text h1 {
+  background-color: rgba(0, 0, 0, 0.2); /* transparent black background */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+
+/* main content */
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--light-highlight); /* text color */
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--light-highlight); /* text color on hover */
+}
+
+
+/* footer */
 
 .social-links {
   font-size: clamp(1.5rem, 2vw, 3rem); 
@@ -74,6 +109,12 @@ h2 {
 .social-links i {
   color: var(--secondary-color);
 }
+
+footer .container {
+    max-width: 100%;
+    /* background-color: var(--secondary-color);
+    margin: auto;
+} */
 
 
 /* body
