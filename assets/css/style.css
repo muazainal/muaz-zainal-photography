@@ -79,9 +79,11 @@ h2, h3 {
 }
 
 .hero-text h1 {
-  background-color: rgba(0, 0, 0, 0.2); /* transparent black background */
+  /* background-color: rgba(0, 0, 0, 0.2); transparent black background */
   padding: 0.5rem 1rem;
   border-radius: 5px;
+  /* color: var(--primary-color); keep text white */
+  text-shadow: 2px 2px 6px var(--secondary-color); /* shadow offset + blur + primary color */
 }
 
 
@@ -108,14 +110,96 @@ h2, h3 {
 
 .social-links i {
   color: var(--secondary-color);
+  transition: color 0.3s ease; /* transition */
+}
+
+/* hover effect for social icons */
+.social-links a:hover i {
+    color: var(--primary-color)
 }
 
 footer .container {
     max-width: 100%;
     /* background-color: var(--secondary-color);
-    margin: auto;
-} */
+    margin: auto;*/
+} 
 
+/* behind the lens */
+
+/* base styles */
+
+body {
+    margin: 0;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    background-color: var(--light-highlight);
+}
+
+/* layout container */
+.bio-section {
+    display: flex;
+    min-height: 100vh;
+    padding-top: 100px;
+    /* flex-wrap: wrap;
+    min-height: 100vh; */
+}
+
+/* left image section */
+.bio-image {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 1rem;
+}
+
+.bio-image img {
+    max-width: 60%;
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+/* right text section */
+
+.bio-text {
+    flex: 1 1 60%;
+    padding: 3rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bio-text h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.bio-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* media section */
+@media (max-width: 768px) {
+    .bio-section {
+        flex-direction: column;
+    }
+
+    .bio-text {
+        padding: 2rem;
+    }
+
+    .bio-text h1 {
+        font-size: 1.5rem;
+    }
+
+
+}
 
 /* body
  {
