@@ -41,8 +41,10 @@ h2, h3 {
 .navbar-text .custom-margin {
     /* Use !important only if absolutely necessary, 
        but higher specificity usually avoids it. */
-    color: var(--light-highlight); /* Example: Bootstrap's lighter text color */
+    color: var(--light-highlight); /* Example: Bootstrap's lighter text color */ 
+    position: relative; left: -10px;
 }
+
 
 /* 1. Default Link Color (Features, Pricing) */
 .navbar-nav .nav-link {
@@ -277,6 +279,49 @@ main.container {
 textarea.form-input {
   resize: vertical;
   height: 120px;
+}
+
+
+/* gallery page */
+
+/* Gallery grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 65px;
+}
+
+/* Gallery items */
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  display: block;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.gallery-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .gallery {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    grid-template-columns: 1fr; /* single column on mobile */
+    gap: 10px;
+  }
 }
 
    
