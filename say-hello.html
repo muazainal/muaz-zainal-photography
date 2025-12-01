@@ -63,7 +63,6 @@
     </nav>
     <!-- <div>Navigation -->
 
-    </div>
 
 
     <!-- header with carousell -->
@@ -73,9 +72,37 @@
     </header> -->
 
     <!-- main elements -->
-    <main>
-        <div>Main Elements</div>
-    </main>
+    <main class="container">
+    <h1 class="page-title">Let's Connect</h1>
+    <p style="text-align: center; margin-bottom: 30px;">Not available for hire, but always open for a photowalk or a coffee meetup.</p>
+    
+    <div class="contact-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+            
+             <div class="form-group">
+                <label for="subject">Subject (e.g., Photowalk?)</label>
+                <input type="text" id="subject" name="subject" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-input" required></textarea>
+            </div>
+
+            <!-- <button type="submit" class="btn-submit">Send Message</button> -->
+            <button type="button" class="btn btn-primary">Send it!</button>
+        </form>
+    </div>
+</main>
 
     <!-- footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->

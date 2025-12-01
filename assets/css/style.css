@@ -158,6 +158,8 @@ body {
     height: auto; 
     display: block;
     margin: 0 auto; 
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(2,43,58,10);
 }
 
 /* right text section */
@@ -201,6 +203,83 @@ body {
 
 }
 
+/* Main content spacing */
+main.container {
+  padding-top: 100px; /* pushes content below fixed navbar */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Page title + subtitle */
+.page-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.page-subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Contact form container */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* stronger shadow for floating effect */
+  margin-bottom: 40px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for floating card */
+.contact-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Inputs */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #007bff; /* Bootstrap primary color */
+  box-shadow: 0 0 6px rgba(0,123,255,0.3);
+}
+
+/* Textarea */
+textarea.form-input {
+  resize: vertical;
+  height: 120px;
+}
+
+   
 /* body
  {
     font-family: "Quicksand", cursive;
