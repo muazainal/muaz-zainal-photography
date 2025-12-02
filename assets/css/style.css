@@ -14,7 +14,7 @@
 /* global styles */
 body {
     font-family: var(--secondary-font);
-    padding-top: 68.8px; /* pushes top of the header down */
+    padding-top: 20px; /* pushes top of the header down */
 }
 
 h1 {
@@ -71,22 +71,43 @@ h2, h3 {
 /* header */
 
 .hero {
-  height: 60vh; /* adjust hero height */
+  height: 100vh; /* adjust hero height */
+  width: 100%;
+  position: relative;
   overflow: hidden;
+  padding-top: 56px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .hero img {
-  object-fit: cover;
-  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
   width: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
+
+.hero-text {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 .hero-text h1 {
   /* background-color: rgba(0, 0, 0, 0.2); transparent black background */
+  z-index: 2;
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  /* color: var(--primary-color); keep text white */
-  text-shadow: 2px 2px 6px var(--secondary-color); /* shadow offset + blur + primary color */
+  color: var(--light-highlight) !important; 
+  font-family: var(--primary-font); 
+  text-shadow: 2px 2px 4px var(--primary-color); /* offset + blur + variable color */
 }
 
 
@@ -159,9 +180,7 @@ body {
 .bio-section {
     display: flex;
     min-height: 100vh;
-    padding-top: 100px;
-    /* flex-wrap: wrap;
-    min-height: 100vh; */
+    padding-top: 10px
 }
 
 /* left image section */
@@ -223,11 +242,13 @@ body {
     .bio-text h1 {
         font-size: 1.5rem;
     }
-
-
 }
 
-/* Main content spacing */
+
+
+
+/* say hello */
+
 main.container {
   padding-top: 100px; /* pushes content below fixed navbar */
   max-width: 900px;
@@ -248,6 +269,14 @@ main.container {
   font-size: 1rem;
   color: #555;
 }
+
+@media (max-width: 768px) {
+  .bio-section {
+    padding-top: 40px;
+  }
+}
+
+
 
 /* Contact form container */
 .contact-container {
@@ -304,6 +333,8 @@ textarea.form-input {
 }
 
 
+
+
 /* gallery page */
 
 /* Gallery grid */
@@ -346,56 +377,3 @@ textarea.form-input {
 }
 
    
-/* body
- {
-    font-family: "Quicksand", cursive;
-}
-
-h1 {
-    font-family: "Rock Salt", cursive;
-}
-
-h2 {
-    font-family: "Zain", cursive;
-} */
-
-/* CSS HEX
---jet-black: #022b3aff;
---teal: #1f7a8cff;
---pale-sky: #bfdbf7ff;
---lavender: #e1e5f2ff; */
-
-/* CSS HSL 
---jet-black: hsla(196, 93%, 12%, 1);
---teal: hsla(190, 64%, 34%, 1);
---pale-sky: hsla(210, 78%, 86%, 1);
---lavender: hsla(226, 40%, 92%, 1); */
-
-/* SCSS HEX 
-$jet-black: #022b3aff;
-$teal: #1f7a8cff;
-$pale-sky: #bfdbf7ff;
-$lavender: #e1e5f2ff; */
-
-/* SCSS HSL 
-$jet-black: hsla(196, 93%, 12%, 1);
-$teal: hsla(190, 64%, 34%, 1);
-$pale-sky: hsla(210, 78%, 86%, 1);
-$lavender: hsla(226, 40%, 92%, 1); */
-
-/* SCSS RGB 
-$jet-black: rgba(2, 43, 58, 1);
-$teal: rgba(31, 122, 140, 1);
-$pale-sky: rgba(191, 219, 247, 1);
-$lavender: rgba(225, 229, 242, 1); */
-
-/* SCSS Gradient 
-$gradient-top: linear-gradient(0deg, #022b3aff, #1f7a8cff, #bfdbf7ff, #e1e5f2ff);
-$gradient-right: linear-gradient(90deg, #022b3aff, #1f7a8cff, #bfdbf7ff, #e1e5f2ff);
-$gradient-bottom: linear-gradient(180deg, #022b3aff, #1f7a8cff, #bfdbf7ff, #e1e5f2ff);
-$gradient-left: linear-gradient(270deg, #022b3aff, #1f7a8cff, #bfdbf7ff, #e1e5f2ff);
-$gradient-top-right: linear-gradient(45deg, #022b3aff, #1f7a8cff, #bfdbf7ff, #e1e5f2ff);
-$gradient-bottom-right: linear-gradient(135deg, #022b3aff, #1f7a8cff, #bfdbf7ff, #e1e5f2ff);
-$gradient-top-left: linear-gradient(225deg, #022b3aff, #1f7a8cff, #bfdbf7ff, #e1e5f2ff);
-$gradient-bottom-left: linear-gradient(315deg, #022b3aff, #1f7a8cff, #bfdbf7ff, #e1e5f2ff);
-$gradient-radial: radial-gradient(#022b3aff, #1f7a8cff, #bfdbf7ff, #e1e5f2ff); */
