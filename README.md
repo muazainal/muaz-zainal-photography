@@ -43,7 +43,7 @@ Built to reignite my passion for visual storytelling and front-end development.
 Deployed via GitHub Pages 
 To deploy locally:
 ```bash
-git clone https://[github.com/yourusername/your-repo-name.git](https://github.com/muazainal/muaz-zainal-photography)
+git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 open index.html
 ```
@@ -102,6 +102,7 @@ open index.html
 ---
 
 #Planned Updates
+
 
 
 
