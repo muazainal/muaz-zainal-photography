@@ -56,26 +56,40 @@ open index.html
 
 ## Desktop view
 ### The Nest Page
+![The Nest](assets/images/the-nest-desktop.jpeg)
 ### Behind The Lens Page
+![Behind The Lens](assets/images/behind-the-lens-desktop.jpeg)
 ### Gallery Page
+![Gallery](assets/images/gallery-desktop.jpeg)
 ### Say Hello! Page
+![Say Hello!](assets/images/say-hello-desktop.jpeg)
 ### Success Page
+![Success](assets/images/success-desktop.jpeg)
 
 ## Tablet view
 ### The Nest Page
+![The Nest](assets/images/the-nest-tablet.jpeg)
 ### Behind The Lens Page
+![Behind The Lens](assets/images/behind-the-lens-tablet.jpeg)
 ### Gallery Page
+![Gallery](assets/images/gallery-tablet.jpeg)
 ### Say Hello! Page
+![Say Hello!](assets/images/say-hello-tablet.jpeg)
 ### Success Page
+![Success](assets/images/success-tablet.jpeg)
+
 
 ## Mobile view
 ### The Nest Page
+![The Nest](assets/images/the-nest-mobile.jpeg)
 ### Behind The Lens Page
+![Behind The Lens](assets/images/the-nest-mobile.jpeg)
 ### Gallery Page
+![Gallery](assets/images/gallery-mobile.jpeg)
 ### Say Hello! Page
+![Say Hello!](assets/images/say-hello-mobile.jpeg)
 ### Success Page
-
-
+![Success](assets/images/sucess-mobile.jpeg)
 
 ---
 
@@ -130,6 +144,7 @@ open index.html
 ---
 
 # Planned Updates
+
 
 
 
