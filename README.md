@@ -81,15 +81,29 @@ open index.html
 
 ## Mobile view
 ### The Nest Page
-![The Nest](assets/images/the-nest-mobile.jpeg)
+<p align="center">
+  <img src="assets/images/the-nest-mobile.jpeg" alt="The Nest Page Mobile View" width="250">
+</p>
+
 ### Behind The Lens Page
-![Behind The Lens](assets/images/the-nest-mobile.jpeg)
+<p align="center">
+  <img src="assets/images/behind-the-lens-mobile.jpeg" alt="The Nest Page Mobile View" width="250">
+</p>
+
 ### Gallery Page
-![Gallery](assets/images/gallery-mobile.jpeg)
+<p align="center">
+  <img src="assets/images/gallery-mobile.jpeg" alt="Gallery Page Mobile View" width="250">
+</p>
+
 ### Say Hello! Page
-![Say Hello!](assets/images/say-hello-mobile.jpeg)
+<p align="center">
+  <img src="assets/images/say-hello-mobile.jpeg" alt="Say Hello! Page Mobile View" width="250">
+</p>
+
 ### Success Page
-![Success](assets/images/sucess-mobile.jpeg)
+<p align="center">
+  <img src="assets/images/sucess-mobile.jpeg" alt="Success Page Mobile View" width="250">
+</p>
 
 ---
 
@@ -122,6 +136,11 @@ open index.html
 
 # Attributions
 
+- Fonts: Google Fonts
+- Placeholder images from Unsplash
+- CSS snippets inspired by CSS Tricks
+- Bootstrap grid references from Bootstrap Docs
+
 ---
 
 # AI Declaration
@@ -150,6 +169,7 @@ open index.html
 ---
 
 # Planned Updates
+
 
 
 
