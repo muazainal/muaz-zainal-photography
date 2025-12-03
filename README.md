@@ -1,4 +1,4 @@
-# 📸 Mu'az Zainal Photogrpahy
+# 📸 Muaz Zainal Photogrpahy
 
 [Live Site](https://muazainal.github.io/muaz-zainal-photography/)
 
@@ -21,9 +21,13 @@
 
 ## Purpose
 
-This site is a personal photography portfolio and creative playground.  
-It showcases my work, experiments with layout and storytelling, and invites collaboration.  
-Built to reignite my passion for visual storytelling and front-end development.
+This site is more than just a gallery of photographs, it is a personal photography portfolio, a creative playground, and a living record of my journey as both a photographer and a front‑end developer. It exists to showcase the images I have captured, the stories I have tried to tell, and the experiments I have made with layout, design, and narrative. At its heart, the site is about reigniting my passion for visual storytelling, while also opening the door to collaboration and dialogue with others who share a love for creativity.
+
+Beyond photography, this portfolio is also a space for expanding and exploring the world of web development with the help of AI. By building it from the ground up, I have been able to practice and refine my front‑end skills, experimenting with HTML, CSS, and responsive design, while learning how to balance aesthetics with usability. It serves as a portfolio for my career in front‑end development, a place where I can demonstrate not only my artistic vision but also my technical growth and problem‑solving approach.
+
+Another big part of this site is the knowledge I’m gaining as I grow in software development. Every challenge I face, whether it’s debugging code or structuring layouts, becomes an opportunity to learn, and each solution adds to the foundation of skills I’m building for the future. Documenting, experimenting, and iterating here isn’t only about creating a polished portfolio, it’s also about capturing the lessons along the way. In that sense, the site is both a showcase of what I’ve built and a record of how I’m growing, a reminder that learning itself is part of the creative journey.
+
+Along the way, I have embraced AI tools as companions in the creative process, using them to troubleshoot code, refine phrasing, and spark new ideas, but always in service of my own decisions and direction.This site brings together human creativity and technology, blending photography with development in a way that feels both personal and professionally forward‑looking. Its purpose is to be a home for my art and my code, a place to showcase my skills and the knowledge I continue to gain, and a reminder that creativity and technology can grow side by side.
 
 ---
 
@@ -132,6 +136,10 @@ open index.html
 
 # Bugs & Errors
 
+- Gallery spacing may break on very small screens
+- Font fallback stack still being refined
+- Occasional layout shifts on Safari mobile
+
 ---
 
 # Attributions
@@ -143,7 +151,19 @@ open index.html
 
 ---
 
-# AI Declaration
+## Declaration of AI Use
+
+This portfolio webite was shaped through my own photographs, words, and design experiments.  
+Along the way, I worked in Visual Studio Code and leaned on Copilot for guidance, 
+sometimes to untangle tricky CSS, sometimes to spark phrasing or layout ideas.  
+
+These tools acted like quiet companions in the studio, offering suggestions and shortcuts,  
+but every decision, edit, and image was my own.  
+The photographs are mine, the narrative is mine. Copilot and VS Code were simply  
+the brushes and lanterns I carried while building this space.  
+
+I take full responsibility for the final work, and I see these tools not as authors,  
+but as part of the journey that helped me bring this portfolio to life.
 
 ---
 
@@ -169,6 +189,10 @@ open index.html
 ---
 
 # Planned Updates
+- Add blog section for creative process and behind-the-scenes stories
+- Implement light/dark mode toggle
+- Expand gallery with new categories 
+- Add contact form with collaboration invite
 
 
 
