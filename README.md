@@ -43,7 +43,7 @@ Built to reignite my passion for visual storytelling and front-end development.
 Deployed via GitHub Pages 
 To deploy locally:
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://[github.com/yourusername/your-repo-name.git](https://github.com/muazainal/muaz-zainal-photography)
 cd your-repo-name
 open index.html
 ```
@@ -51,16 +51,32 @@ open index.html
 ---
 
 #Screenshots
+## Device Mockups
+![Device Mockup](assets/images/device-mock-up.png)
+
+
 
 ---
 
 #Performance Tests
-### HTML validation
-![HTML validation for The Nest](assets/index-html-page-validator.png)
+## HTML validation
+### The Nest Page
+![HTML validation for The Nest](assets/images/index-html-page-validator.png)
 
+### Behind The Lens Page
+![HTML validation for The Nest](/assets/images/behind-the-lens-html.png)
+
+### Gallery Page
+![HTML validation for The Nest](/assets/images/gallery-html.png)
+
+### Say Hello! Page
+![HTML validation for The Nest](assets/images/say-hello-html.png)
+
+### Success Page
+![HTML validation for The Nest](assets/images/success.png)
 
 ### Lighthouse Report
-![Lighthouse Performance Screenshot](assets/tests/lighthouse-performance.png)
+![Lighthouse Performance Screenshot](assets/images/lighthouse-report.png)
 
 
 ---
@@ -86,6 +102,7 @@ open index.html
 ---
 
 #Planned Updates
+
 
 
 
