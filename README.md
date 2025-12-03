@@ -128,6 +128,9 @@ open index.html
 ### Success Page
 ![HTML validation for The Nest](assets/images/success.png)
 
+## CSS validation
+![HTML validation for The Nest](assets/images/css-validator.png)
+
 ### Lighthouse Report
 ![Lighthouse Performance Screenshot](assets/images/lighthouse-report.png)
 
@@ -193,6 +196,7 @@ but as part of the journey that helped me bring this portfolio to life.
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+
 
 
 
