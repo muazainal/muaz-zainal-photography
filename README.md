@@ -151,7 +151,7 @@ open index.html
 
 ---
 
-## Declaration of AI Use
+## AI Declaration 
 
 This portfolio webite was shaped through my own photographs, words, and design experiments.  
 Along the way, I worked in Visual Studio Code and leaned on Copilot for guidance, 
@@ -193,6 +193,7 @@ but as part of the journey that helped me bring this portfolio to life.
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+
 
 
 
