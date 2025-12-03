@@ -68,6 +68,15 @@ h2, h3 {
     width: 40px;
 }
 
+/* muaz zainal photography text */
+.brand-title {
+  font-family: var(--primary-font);
+  color: var(--light-highlight);
+  font-size: 1.5rem; /* adjust size */
+  margin: 0;
+}
+
+
 /* header */
 
 .hero {
@@ -164,6 +173,13 @@ footer .container {
     /* background-color: var(--secondary-color);
     margin: auto;*/
 } 
+
+.footing-text {
+  font-family: var(--primary-font); /* Rock Salt */
+  color: var(--primary-color);
+  font-size: clamp(1rem, 2vw, 1.5rem); /* adjust size */
+}
+
 
 /* behind the lens */
 
