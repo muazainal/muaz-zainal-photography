@@ -47,8 +47,8 @@ Along the way, I have embraced AI tools as companions in the creative process, u
 Deployed via GitHub Pages 
 To deploy locally:
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/muazainal/muaz-zainal-photography
+cd muaz-zainal-photography
 open index.html
 ```
 
@@ -196,6 +196,7 @@ but as part of the journey that helped me bring this portfolio to life.
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+
 
 
 
