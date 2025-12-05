@@ -76,6 +76,16 @@ h2, h3 {
   margin: 0;
 }
 
+.navbar-text .brand-title {
+    color: #bfdbf7ff; /* your current light blue text colour */
+    transition: color 0.3s ease;
+}
+
+.navbar-text .brand-title:hover {
+    color: #022b3aff; /* new hover colour */
+}
+
+
 
 /* header */
 
@@ -170,6 +180,18 @@ h2, h3 {
   border-top-right-radius: 0.3rem;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* spacing between content */
+    align-items: left; /* center horizontally */
+}
+
+.card-body .btn {
+    margin-top: auto; /* push button to the bottom if needed */
+}
+
+
 
 
 /* footer */
@@ -235,7 +257,15 @@ body {
     margin: 0 auto; 
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(2,43,58,10);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+/* Hover effect */
+.bio-image img:hover {
+    transform: translateY(-5px); /* moves up slightly */
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25); /* soft drop shadow */
+}
+
 
 /* right text section */
 
@@ -417,8 +447,108 @@ textarea.form-input {
 }
 
 .gallery img:active {
-  transform: scale(1.2); /* zooms in slightly */
-  box-shadow: 0 10px 20px rgba(0,0,0,0.4); /* adds depth */
+  transform: scale(1.2); /* make it slightly zooms in  */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4); /* to add depth effects*/
 }
 
-  
+/* gallert filter button */
+
+.gallery-section {
+  padding-top: 80px; /* adjust until filters are fully visible */
+}
+
+.filters input[type="radio"] {
+  display: none; /* hide the actual radio */
+}
+
+.filters label {
+  display: inline-block;
+  background: #1f7a8cff;
+  color: #bfdbf7ff;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease,
+              transform 0.2s ease,
+              box-shadow 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15); /* drop shadow of the buttons */
+}
+
+/* hover effect, add lift and stronger shadow */
+.filters label:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+.filters input[type="radio"]:checked + label {
+  background: #022b3aff; /* highlight active filter */
+}
+
+/* hide all items by default */
+.gallery-item {
+  display: none;
+}
+
+/* show all when "all" is checked */
+#all:checked ~ .gallery .gallery-item {
+  display: block;
+}
+
+/* show newborn only */
+#newborn:checked ~ .gallery .newborn {
+  display: block;
+}
+
+/* show sports only */
+#sports:checked ~ .gallery .sports {
+  display: block;
+}
+
+/* show wedding only */
+#wedding:checked ~ .gallery .wedding {
+  display: block;
+}
+
+/* show landscape only */
+#landscape:checked ~ .gallery .landscape {
+  display: block;
+}
+
+/* show corporate only */
+#corporate:checked ~ .gallery .corporate {
+  display: block;
+}
+
+/* show convocation only */
+#convocation:checked ~ .gallery .convocation {
+  display: block;
+}
+
+/* show travel only */
+#travel:checked ~ .gallery .travel {
+  display: block;
+}
+
+/* show portrait only */
+#portrait:checked ~ .gallery .portrait {
+  display: block;
+}
+
+/* hide actual radio inputs and must target them directly */
+.gallery-section input[type="radio"] {
+    display: none;
+}
+
+/* when the corresponding radio is checked, match the label using [for="id"] */
+#all:checked ~ .filters label[for="all"],
+#newborn:checked ~ .filters label[for="newborn"],
+#sports:checked ~ .filters label[for="sports"],
+#wedding:checked ~ .filters label[for="wedding"],
+#landscape:checked ~ .filters label[for="landscape"],
+#corporate:checked ~ .filters label[for="corporate"],
+#convocation:checked ~ .filters label[for="convocation"],
+#travel:checked ~ .filters label[for="travel"],
+#portrait:checked ~ .filters label[for="portrait"] {
+    background: #022b3a;  /* your highlight colour */
+    color: #fff;
+}
