@@ -119,6 +119,26 @@ h2, h3 {
   text-shadow: 2px 2px 4px var(--primary-color); /* offset + blur + variable color */
 }
 
+/* .hero-text a:hover {
+  display: inline-block;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+} */
+
+.hero-text a:hover {
+  display: inline-block; /* ensures transform works */
+  animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-10px); }
+  50%  { transform: translateY(0); }
+  70%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+
 
 /* main content */
 
@@ -391,4 +411,14 @@ textarea.form-input {
   }
 }
 
-   
+.gallery img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery img:active {
+  transform: scale(1.2); /* zooms in slightly */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4); /* adds depth */
+}
+
+  
