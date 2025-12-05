@@ -56,7 +56,7 @@ open index.html
 
 # Screenshots
 ## Device Mockups
-![Device Mockup](assets/images/device-mock-up.png)
+![Device Mockup](assets/images/device-mock-up-new.png)
 
 ## Desktop view
 ### The Nest Page
@@ -196,6 +196,7 @@ but as part of the journey that helped me bring this portfolio to life.
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+
 
 
 
