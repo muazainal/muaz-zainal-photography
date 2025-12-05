@@ -112,7 +112,7 @@ open index.html
 ---
 
 # Performance Tests
-## HTML validation
+## HTML Validation
 ### The Nest Page
 ![HTML validation for The Nest](assets/images/index-html-page-validator.png)
 
@@ -128,11 +128,15 @@ open index.html
 ### Success Page
 ![HTML validation for The Nest](assets/images/success.png)
 
-## CSS validation
+## CSS Validation
 ![HTML validation for The Nest](assets/images/css-validator.png)
 
 ### Lighthouse Report
-![Lighthouse Performance Screenshot](assets/images/lighthouse-report.png)
+#### First Lighthouse Run
+![Initial Lighthouse Audit](assets/images/lighthouse-report.png)
+
+#### Updated Lighthouse Run
+![Lighthouse Audit After Fixes](assets/images/lighthouse-report-new.png)
 
 
 ---
@@ -147,10 +151,10 @@ open index.html
 
 # Attributions
 
-- Fonts: Google Fonts
-- Placeholder images from Unsplash
-- CSS snippets inspired by CSS Tricks
-- Bootstrap grid references from Bootstrap Docs
+- **Fonts**: [Google Fonts](https://fonts.google.com) — Rock Salt, Quicksand, and Zain  
+- **Images**: Placeholder photos sourced from [Unsplash](https://unsplash.com)  
+- **CSS Inspiration**: Styling ideas and snippets adapted from [CSS‑Tricks](https://css-tricks.com)  
+- **Framework References**: Grid and layout guidance from [Bootstrap Documentation](https://getbootstrap.com/docs/)
 
 ---
 
@@ -196,6 +200,7 @@ but as part of the journey that helped me bring this portfolio to life.
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+
 
 
 
