@@ -56,7 +56,9 @@ open index.html
 
 # Screenshots
 ## Device Mockups
-<img src="assets/images/device-mock-up-new.png" width="300" height="200">
+<div align="center">
+  <img src="assets/images/device-mock-up-new.png" width="600">
+</div>
 
 ## Desktop view
 ### The Nest Page
@@ -200,6 +202,7 @@ but as part of the journey that helped me bring this portfolio to life.
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+
 
 
 
