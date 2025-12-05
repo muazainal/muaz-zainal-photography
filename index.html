@@ -62,10 +62,36 @@
 
     <!-- header with carousell -->
     <header class="hero position-relative">
-        <img src="assets/images/golden-gate-bridge-2.png" class="hero-img"
-            alt="image of golden gate bridge in San Francisco" loading="lazy">
+        <!-- <img src="assets/images/webp/golden-gate-bridge-2.webp" class="hero-img"
+            alt="image of golden gate bridge in San Francisco" loading="lazy"> -->
+
+        <!-- Bootstrap fade carousel -->
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First slide -->
+                <div class="carousel-item active">
+                    <img src="assets/images/webp/golden-gate-bridge-2.webp" class="d-block w-100 hero-img"
+                        alt="Golden Gate Bridge in San Francisco" loading="lazy">
+                </div>
+                <!-- Second slide -->
+                <div class="carousel-item">
+                    <img src="assets/images/webp/pigeon-on-the-line.webp" class="d-block w-100 hero-img"
+                        alt="Another scenic view" loading="lazy">
+                </div>
+                <!-- Third slide -->
+                <div class="carousel-item">
+                    <img src="assets/images/webp/joshua-tree-national-park.webp" class="d-block w-100 hero-img"
+                        alt="Yet another view" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Overlay text -->
         <div class="hero-text position-absolute top-50 start-50 translate-middle text-center">
-            <h1 class="display-4 text-white">Rediscovered moments</h1>
+            <h1 class="display-4"> <a href="gallery.html" class="text-white text-decoration-none">
+                    Rediscovered moments</a>
+            </h1>
         </div>
     </header>
 
