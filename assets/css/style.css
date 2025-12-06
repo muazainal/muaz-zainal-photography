@@ -40,25 +40,23 @@ h2, h3 {
 /* Custom CSS file, loaded AFTER Bootstrap's CSS */
 
 .navbar-text .custom-margin {
-    /* Use !important only if absolutely necessary, 
-       but higher specificity usually avoids it. */
-    color: var(--light-highlight); /* Example: Bootstrap's lighter text color */ 
+    color: var(--light-highlight); /* lighter text color */ 
     position: relative; left: -10px;
 }
 
 
-/* 1. Default Link Color (Features, Pricing) */
+/* default link colour */
 .navbar-nav .nav-link {
     color: var(--light-highlight); /* pale sky */
 }
 
-/* 2. Active Link Color (Home) */
+/* active link Colour (Home) */
 .navbar-nav .nav-link.active {
     color: var(--primary-color);
     font-weight: bold;
 }
 
-/* 3. Hover/Focus Color */
+/* hover/focus colour */
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
     color: #FFFFFF; /* Pure White */
@@ -77,7 +75,7 @@ h2, h3 {
 }
 
 .navbar-text .brand-title {
-    color: #bfdbf7ff; /* your current light blue text colour */
+    color: #bfdbf7ff; /* current light blue text colour */
     transition: color 0.3s ease;
 }
 
@@ -149,7 +147,6 @@ h2, h3 {
 }
 
 
-
 /* main content */
 
 .btn-primary {
@@ -192,41 +189,9 @@ h2, h3 {
 }
 
 
-
-
-/* footer */
-
-.social-links {
-  font-size: clamp(1.5rem, 2vw, 3rem); 
-}
-
-.social-links i {
-  color: var(--secondary-color);
-  transition: color 0.3s ease; /* transition */
-}
-
-/* hover effect for social icons */
-.social-links a:hover i {
-    color: var(--primary-color)
-}
-
-footer .container {
-    max-width: 100%;
-    /* background-color: var(--secondary-color);
-    margin: auto;*/
-} 
-
-.footing-text {
-  font-family: var(--primary-font); /* Rock Salt */
-  color: var(--primary-color);
-  font-size: clamp(1rem, 2vw, 1.5rem); /* adjust size */
-}
-
-
 /* behind the lens */
 
 /* base styles */
-
 body {
     margin: 0;
     font-family: var(--secondary-font);
@@ -311,98 +276,9 @@ body {
 }
 
 
-
-
-/* say hello */
-
-main.container {
-  padding-top: 100px; /* pushes content below fixed navbar */
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-/* Page title + subtitle */
-.page-title {
-  text-align: center;
-  margin-bottom: 10px;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.page-subtitle {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 1rem;
-  color: #555;
-}
-
-@media (max-width: 768px) {
-  .bio-section {
-    padding-top: 40px;
-  }
-}
-
-
-
-/* Contact form container */
-.contact-container {
-  max-width: 600px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* stronger shadow for floating effect */
-  margin-bottom: 40px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-/* Hover effect for floating card */
-.contact-container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
-}
-
-/* Form groups */
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
-  font-size: 0.9rem;
-  color: #333;
-}
-
-/* Inputs */
-.form-input {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-family: inherit;
-  font-size: 1rem;
-  transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-.form-input:focus {
-  outline: none;
-  border-color: #007bff; /* Bootstrap primary color */
-  box-shadow: 0 0 6px rgba(0,123,255,0.3);
-}
-
-/* Textarea */
-textarea.form-input {
-  resize: vertical;
-  height: 120px;
-}
-
-
-
 /* gallery page */
 
-/* Gallery grid */
+/* gallery grid */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -411,7 +287,7 @@ textarea.form-input {
   margin-top: 50px;
 }
 
-/* Gallery items */
+/* gallery items */
 .gallery-item img {
   width: 100%;
   height: 100%;
@@ -421,13 +297,13 @@ textarea.form-input {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect */
+/* hover effect */
 .gallery-item img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
-/* Responsive tweaks */
+/* responsive tweaks */
 @media (max-width: 768px) {
   .gallery {
     gap: 15px;
@@ -448,13 +324,13 @@ textarea.form-input {
 
 .gallery img:active {
   transform: scale(1.2); /* make it slightly zooms in  */
-  box-shadow: 0 10px 20px rgba(0,0,0,0.4); /* to add depth effects*/
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4); /* gives depth effects*/
 }
 
 /* gallert filter button */
 
 .gallery-section {
-  padding-top: 80px; /* adjust until filters are fully visible */
+  padding-top: 80px; /* make sure filters are fully visible */
 }
 
 .filters input[type="radio"] {
@@ -549,6 +425,122 @@ textarea.form-input {
 #convocation:checked ~ .filters label[for="convocation"],
 #travel:checked ~ .filters label[for="travel"],
 #portrait:checked ~ .filters label[for="portrait"] {
-    background: #022b3a;  /* your highlight colour */
+    background: #022b3a;  /* highlight colour - primary colour */
     color: #fff;
 }
+
+
+/* say hello */
+
+main.container {
+  padding-top: 100px; /* pushes content below fixed navbar */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* page title + subtitle */
+.page-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.page-subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .bio-section {
+    padding-top: 40px;
+  }
+}
+
+
+/* contact form container */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* stronger shadow for floating effect */
+  margin-bottom: 40px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* hover effect for floating card */
+.contact-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* inputs */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #bfdbf7ff; /* light-highlight color */
+  box-shadow: 0 0 6px rgba(0,123,255,0.3);
+}
+
+/* Textarea */
+textarea.form-input {
+  resize: vertical;
+  height: 120px;
+}
+
+
+/* footer */
+
+.social-links {
+  font-size: clamp(1.5rem, 2vw, 3rem); 
+}
+
+.social-links i {
+  color: var(--secondary-color);
+  transition: color 0.3s ease; /* transition */
+}
+
+/* hover effect for social icons */
+.social-links a:hover i {
+    color: var(--primary-color)
+}
+
+footer .container {
+    max-width: 100%;
+    /* background-color: var(--secondary-color);
+    margin: auto;*/
+} 
+
+.footing-text {
+  font-family: var(--primary-font); /* Rock Salt */
+  color: var(--primary-color);
+  font-size: clamp(1rem, 2vw, 1.5rem); /* adjust size */
+}
+
+
