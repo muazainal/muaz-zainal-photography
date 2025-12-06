@@ -1,4 +1,4 @@
-# 📸 Muaz Zainal Photogrpahy
+# 📸 Muaz Zainal Photography
 
 [Live Site](https://muazainal.github.io/muaz-zainal-photography/)
 
@@ -202,6 +202,7 @@ but as part of the journey that helped me bring this portfolio to life.
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+
 
 
 
