@@ -111,6 +111,14 @@ open index.html
   <img src="assets/images/sucess-mobile.jpeg" alt="Success Page Mobile View" width="250">
 </p>
 
+<!-- <div style="display: flex; gap: 10px;">
+  <img src="assets/images/the-nest-mobile.jpeg" alt="The Nest Page Mobile View" width="250">
+  <img src="assets/images/behind-the-lens-mobile.jpeg" alt="The Nest Page Mobile View" width="250">
+  <img src="assets/images/gallery-mobile.jpeg" alt="Gallery Page Mobile View" width="250">
+  <img src="assets/images/say-hello-mobile.jpeg" alt="Say Hello! Page Mobile View" width="250">
+  <img src="assets/images/sucess-mobile.jpeg" alt="Success Page Mobile View" width="250">
+</div> -->
+
 ---
 
 # Performance Tests
@@ -202,6 +210,7 @@ but as part of the journey that helped me bring this portfolio to life.
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+
 
 
 
