@@ -1,4 +1,4 @@
-# 📸 Muaz Zainal Photogrpahy
+# 📸 Muaz Zainal Photography
 
 [Live Site](https://muazainal.github.io/muaz-zainal-photography/)
 
@@ -56,7 +56,9 @@ open index.html
 
 # Screenshots
 ## Device Mockups
-![Device Mockup](assets/images/device-mock-up-new.png)
+<div align="center">
+  <img src="assets/images/device-mock-up-new.png" width="600">
+</div>
 
 ## Desktop view
 ### The Nest Page
@@ -109,6 +111,14 @@ open index.html
   <img src="assets/images/sucess-mobile.jpeg" alt="Success Page Mobile View" width="250">
 </p>
 
+<!-- <div style="display: flex; gap: 10px;">
+  <img src="assets/images/the-nest-mobile.jpeg" alt="The Nest Page Mobile View" width="250">
+  <img src="assets/images/behind-the-lens-mobile.jpeg" alt="The Nest Page Mobile View" width="250">
+  <img src="assets/images/gallery-mobile.jpeg" alt="Gallery Page Mobile View" width="250">
+  <img src="assets/images/say-hello-mobile.jpeg" alt="Say Hello! Page Mobile View" width="250">
+  <img src="assets/images/sucess-mobile.jpeg" alt="Success Page Mobile View" width="250">
+</div> -->
+
 ---
 
 # Performance Tests
@@ -160,7 +170,7 @@ open index.html
 
 ## AI Declaration 
 
-This portfolio webite was shaped through my own photographs, words, and design experiments.  
+This portfolio website was shaped through my own photographs, words, and design experiments.  
 Along the way, I worked in Visual Studio Code and leaned on Copilot for guidance, 
 sometimes to untangle tricky CSS, sometimes to spark phrasing or layout ideas.  
 
@@ -200,6 +210,11 @@ but as part of the journey that helped me bring this portfolio to life.
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+
+
+
+
+
 
 
 
