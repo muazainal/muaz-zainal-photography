@@ -203,6 +203,12 @@ but as part of the journey that helped me bring this portfolio to life.
 ### Mobile Pages
 ![Mobile Pages](assets/images/mobile.jpg)
 
+## AI Wireframe Derived from Hand-Drawn Sketches
+![Mobile Pages](assets/images/wireframe-ai-generated.png)
+<!-- <p align="center">
+  <img src="assets/images/wireframe-ai-generated.png" alt="ai-generated wireframe" width="500">
+</p> -->
+
 ---
 
 # Planned Updates
@@ -210,6 +216,7 @@ but as part of the journey that helped me bring this portfolio to life.
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+
 
 
 
