@@ -153,6 +153,7 @@ h2, h3 {
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
   color: var(--light-highlight); /* text color */
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .btn-primary:hover {
@@ -187,6 +188,16 @@ h2, h3 {
 .card-body .btn {
     margin-top: auto; /* push button to the bottom if needed */
 }
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    color: var(--light-highlight) !important;
+    box-shadow: none !important; /* remove the blue shadow */
+}
+
 
 
 /* behind the lens */
@@ -467,7 +478,7 @@ main.container {
   background: #fff;
   padding: 40px;
   border-radius: 8px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1); /* stronger shadow for floating effect */
+  box-shadow: 0 8px 25px rgba(2,43,58,0.1); /* stronger shadow for floating effect */
   margin-bottom: 40px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -475,7 +486,7 @@ main.container {
 /* hover effect for floating card */
 .contact-container:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 12px 30px rgba(2,43,58,0.15);
 }
 
 /* Form groups */
@@ -508,10 +519,32 @@ main.container {
   box-shadow: 0 0 6px rgba(0,123,255,0.3);
 }
 
-/* Textarea */
+/* textarea */
 textarea.form-input {
   resize: vertical;
   height: 120px;
+}
+
+.contact-container .btn-primary {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.contact-container .btn-primary:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+/* success page */
+/* success button */
+.success-btn {
+    background-color: var(--secondary-color) !important; 
+    border-color: var(--secondary-color) !important;
+}
+
+.success-btn:hover {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
 }
 
 
