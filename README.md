@@ -252,6 +252,8 @@ open index.html
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
+- Future Gallery Enhancement: Arrange gallery images in a mood board style, allowing both landscape and portrait orientations to mix freely
+
 
 
 
