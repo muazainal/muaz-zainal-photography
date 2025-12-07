@@ -59,8 +59,6 @@
 
 ---
 
-<div align="justify">
-
 ## Features & Benefits
 
 - Responsive gallery layout using pure HTML/CSS  
@@ -70,7 +68,6 @@
 - Optimized for mobile and desktop viewing  
 - Clean, minimalist aesthetic with expressive typography
 
-</div>
 
 ---
 
@@ -183,15 +180,12 @@ open index.html
 
 ---
 
-- <div align="justify">
-
 # Bugs & Errors
 
 - Gallery spacing may break on very small screens
 - Font fallback stack still being refined
 - Occasional layout shifts on Safari mobile
-- 
-</div>
+
 
 ---
 
@@ -255,16 +249,16 @@ open index.html
 
 ---
 
-<div align="justify">
 
 # Planned Updates
+
 - Add blog section for creative process and behind-the-scenes stories
 - Implement light/dark mode toggle
 - Expand gallery with new categories 
 - Add contact form with collaboration invite
 - Future Gallery Enhancement: Arrange gallery images in a mood board style, allowing both landscape and portrait orientations to mix freely
 
-</div>
+
 
 
 
