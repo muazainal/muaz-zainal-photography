@@ -182,11 +182,12 @@ h2, h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* spacing between content */
-    align-items: left; /* center horizontally */
+    align-items: center; /* center horizontally */
 }
 
 .card-body .btn {
     margin-top: auto; /* push button to the bottom if needed */
+    
 }
 
 .btn-primary:focus,
@@ -268,7 +269,7 @@ body {
 }
 
 /* media section */
-@media (max-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .bio-section {
         flex-direction: column;
     }
